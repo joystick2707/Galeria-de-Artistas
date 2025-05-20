@@ -6,7 +6,7 @@ struct DetalhesObraView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
-                Image(systemName: obra.imagemNome)
+                Image(obra.imagemNome)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(maxWidth: .infinity)
