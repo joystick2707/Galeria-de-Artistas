@@ -1,7 +1,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    // Gera o array de obras apenas uma vez, com UUIDs criados aqui
     private let obras: [ObraDeArte] = [
         ObraDeArte(id: UUID(), titulo: "Painel da Roda de Ferro", artista: "Poty Lazzarotto", ano: 1972, estilo: "Gravura em concreto", imagemNome: "poty_roda_ferro", descricao: "Painel localizado na Praça 19 de Dezembro, em Curitiba, representando cenas do cotidiano paranaense."),
         ObraDeArte(id: UUID(), titulo: "Tigre Esmagando a Cobra", artista: "Ida Hannemann de Campos", ano: 1944, estilo: "Escultura em bronze", imagemNome: "oao_turin_tigre", descricao: "Escultura premiada no Salão Nacional de Belas Artes, localizada na Avenida Manoel Ribas, em Curitiba"),
